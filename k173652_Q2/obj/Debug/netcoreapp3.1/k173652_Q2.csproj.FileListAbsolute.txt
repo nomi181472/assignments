@@ -1,0 +1,15 @@
+C:\Users\noman\source\repos\Assignment1\k173652_Q2\bin\Debug\netcoreapp3.1\k173652_Q2.exe
+C:\Users\noman\source\repos\Assignment1\k173652_Q2\bin\Debug\netcoreapp3.1\k173652_Q2.deps.json
+C:\Users\noman\source\repos\Assignment1\k173652_Q2\bin\Debug\netcoreapp3.1\k173652_Q2.runtimeconfig.json
+C:\Users\noman\source\repos\Assignment1\k173652_Q2\bin\Debug\netcoreapp3.1\k173652_Q2.runtimeconfig.dev.json
+C:\Users\noman\source\repos\Assignment1\k173652_Q2\bin\Debug\netcoreapp3.1\k173652_Q2.dll
+C:\Users\noman\source\repos\Assignment1\k173652_Q2\bin\Debug\netcoreapp3.1\k173652_Q2.pdb
+C:\Users\noman\source\repos\Assignment1\k173652_Q2\obj\Debug\netcoreapp3.1\k173652_Q2.csprojAssemblyReference.cache
+C:\Users\noman\source\repos\Assignment1\k173652_Q2\obj\Debug\netcoreapp3.1\k173652_Q2.AssemblyInfoInputs.cache
+C:\Users\noman\source\repos\Assignment1\k173652_Q2\obj\Debug\netcoreapp3.1\k173652_Q2.AssemblyInfo.cs
+C:\Users\noman\source\repos\Assignment1\k173652_Q2\obj\Debug\netcoreapp3.1\k173652_Q2.csproj.CoreCompileInputs.cache
+C:\Users\noman\source\repos\Assignment1\k173652_Q2\obj\Debug\netcoreapp3.1\k173652_Q2.dll
+C:\Users\noman\source\repos\Assignment1\k173652_Q2\obj\Debug\netcoreapp3.1\k173652_Q2.pdb
+C:\Users\noman\source\repos\Assignment1\k173652_Q2\obj\Debug\netcoreapp3.1\k173652_Q2.genruntimeconfig.cache
+C:\Users\noman\source\repos\Assignment1\k173652_Q2\obj\Debug\netcoreapp3.1\k173652_Q2.csproj.CopyComplete
+C:\Users\noman\source\repos\Assignment1\k173652_Q2\bin\Debug\netcoreapp3.1\HtmlAgilityPack.dll
