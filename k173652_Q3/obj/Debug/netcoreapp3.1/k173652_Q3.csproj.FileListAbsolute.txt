@@ -1,0 +1,7 @@
+C:\Users\noman\source\repos\Assignment1\k173652_Q3\obj\Debug\netcoreapp3.1\k173652_Q3.csprojAssemblyReference.cache
+C:\Users\noman\source\repos\Assignment1\k173652_Q3\obj\Debug\netcoreapp3.1\k173652_Q3.Form1.resources
+C:\Users\noman\source\repos\Assignment1\k173652_Q3\obj\Debug\netcoreapp3.1\k173652_Q3.Properties.Resources.resources
+C:\Users\noman\source\repos\Assignment1\k173652_Q3\obj\Debug\netcoreapp3.1\k173652_Q3.csproj.GenerateResource.cache
+C:\Users\noman\source\repos\Assignment1\k173652_Q3\obj\Debug\netcoreapp3.1\k173652_Q3.AssemblyInfoInputs.cache
+C:\Users\noman\source\repos\Assignment1\k173652_Q3\obj\Debug\netcoreapp3.1\k173652_Q3.AssemblyInfo.cs
+C:\Users\noman\source\repos\Assignment1\k173652_Q3\obj\Debug\netcoreapp3.1\k173652_Q3.csproj.CoreCompileInputs.cache

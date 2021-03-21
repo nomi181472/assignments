@@ -12,7 +12,7 @@ namespace k173652_Q4
     public class CommonService
     {
         static Dictionary<string, List<Scripts>> AllData = new Dictionary<string, List<Scripts>>();
-        private string[] GetPaths(string script)
+        public string[] GetPaths(string script)
         {
             return Directory.GetDirectories(script);
         }
