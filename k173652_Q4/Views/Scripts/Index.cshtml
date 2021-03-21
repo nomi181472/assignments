@@ -1,0 +1,63 @@
+﻿@model k173652_Q4.Models.Scripts
+
+
+@{
+    ViewBag.Title = "scripts";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2></h2>
+
+
+@using (Html.BeginForm("index","Category"))
+{
+
+    <tr>
+        <td> Pakistan Stock Exchange Days </td>
+        <td>
+            @Html.DropDownList("Day", (IEnumerable
+     <SelectListItem>)ViewBag.day, "Choose Day", new { @class = "form-control" })
+
+        </td>
+        <td><input type="submit" value="Show Data" id="Show" class="form-control"/></td>
+    </tr>
+    <tr>
+    </tr>
+    
+  /*  if (ViewBag.Categories != null)
+    {
+
+        <td>
+            @Html.Partial("index2");
+            @Html.DropDownList("Day", (IEnumerable
+        <SelectListItem>)ViewBag.day, "Choose Day", new { @class = "form-control" })
+
+        </td>
+    }
+  */
+
+}
+
+
+
+
+
+@section Scripts {
+    <script>
+
+        $(document).ready(function () {
+            
+            $("#Show").prop("disabled", true);
+            $("#Day").on("change", function () {
+
+                var val = $("#Day").val();
+                $.post("test/index",
+                    { Day: val })
+
+                $("#Show").prop("disabled", false);
+
+            })
+        });
+    </script>
+}
+

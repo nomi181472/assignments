@@ -1,0 +1,68 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<html>
+<head>
+    <script src="~/Scripts/jquery-3.4.1.js" crossorigin="anonymous"></script>
+    <script src="~/Scripts/jquery.unobtrusive-ajax.js"></script>
+    <link rel="stylesheet" href="~/Content/bootstrap.min.css"/>
+    
+</head>
+<body>
+  
+    <div class="container">
+
+
+        @using (Ajax.BeginForm("ShowData", "Category", null, new AjaxOptions
+        {
+            UpdateTargetId = "show",
+            InsertionMode = InsertionMode.Replace,
+            HttpMethod = "POST"
+        }, new { id = "sampleForm" }))
+        {
+            if (ViewBag.Category != null)
+            {
+                @Html.DropDownList("Category", (IEnumerable
+                     <SelectListItem>)ViewBag.Category, "Choose Category", new { @class = "form-control" });
+
+                <div id="show">
+
+                </div>
+
+                <button id="btn" type="submit">Show</button>
+            }
+            else
+            {
+                @Html.Label("Please Select Any Day");
+            }
+
+        }
+
+
+
+
+    </div>
+
+    @section Scripts {
+        <script>
+
+            $(document).ready(function () {
+
+                
+                $("#Category").on("change", function () {
+
+                    $("button").trigger("click");
+                    $("#btn").html("Show More");
+
+
+
+                });
+            });
+        </script>
+    }
+
+
+</body>
+</html>
