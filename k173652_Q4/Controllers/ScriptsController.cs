@@ -21,7 +21,7 @@ namespace k173652_Q4.Controllers
             CommonService cs = new CommonService();
             
              var   script = ConfigurationManager.AppSettings["directorypath"]; // new Scripts() { price=23.2,script="script"};
-            
+            cs.Clear();
             ViewBag.day =cs.GetDropDownDay(script);
        
             return View();

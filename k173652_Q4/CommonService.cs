@@ -63,10 +63,14 @@ namespace k173652_Q4
         }
         public List<Scripts> getparseData(string category)
         {
-            
-            return AllData[category.Replace(" ","")];
-        }
 
+            return AllData[category.Replace(" ", "")];
+        }
+        public void Clear()
+        {
+
+            AllData.Clear();
+        }
 
     }
 }

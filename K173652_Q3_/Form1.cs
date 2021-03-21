@@ -34,8 +34,12 @@ namespace K173652_Q3_
 
         private void dropdownDay_SelectedIndexChanged(object sender, EventArgs e)
         {
+            
+            
             var index = dropdownDay.SelectedItem.ToString();
             CommonService cs = new CommonService();
+            cs.Clear();
+            CategoriesDropdown.Items.Clear();
             var categorys = cs.GetPaths(index);
             cs.getAllXmlFilePath(index);
             foreach (var p in categorys)
@@ -63,6 +67,11 @@ namespace K173652_Q3_
                 Table.Rows[index].Cells[1].Value = p.script.ToString();
                 Table.Rows[index].Cells[2].Value = p.price.ToString();
             }
+        }
+
+        private void Table_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }

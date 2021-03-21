@@ -91,21 +91,29 @@ namespace K173652_Q3_
             this.Table.RowTemplate.Height = 25;
             this.Table.Size = new System.Drawing.Size(600, 339);
             this.Table.TabIndex = 4;
+            this.Table.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.Table_CellContentClick);
             // 
             // Column1
             // 
             this.Column1.HeaderText = "SNo.";
             this.Column1.Name = "Column1";
+            this.Column1.ReadOnly = true;
+            this.Column1.Resizable = System.Windows.Forms.DataGridViewTriState.False;
+            this.Column1.Width = 50;
             // 
             // Column2
             // 
             this.Column2.HeaderText = "Script";
             this.Column2.Name = "Column2";
+            this.Column2.ReadOnly = true;
+            this.Column2.Width = 430;
             // 
             // Column3
             // 
             this.Column3.HeaderText = "Price";
             this.Column3.Name = "Column3";
+            this.Column3.ReadOnly = true;
+            this.Column3.Width = 80;
             // 
             // Form1
             // 

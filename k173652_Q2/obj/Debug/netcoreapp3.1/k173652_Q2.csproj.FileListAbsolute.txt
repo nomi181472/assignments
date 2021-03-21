@@ -13,3 +13,4 @@ C:\Users\noman\source\repos\Assignment1\k173652_Q2\obj\Debug\netcoreapp3.1\k1736
 C:\Users\noman\source\repos\Assignment1\k173652_Q2\obj\Debug\netcoreapp3.1\k173652_Q2.genruntimeconfig.cache
 C:\Users\noman\source\repos\Assignment1\k173652_Q2\obj\Debug\netcoreapp3.1\k173652_Q2.csproj.CopyComplete
 C:\Users\noman\source\repos\Assignment1\k173652_Q2\bin\Debug\netcoreapp3.1\HtmlAgilityPack.dll
+C:\Users\noman\source\repos\Assignment1\k173652_Q2\bin\Debug\netcoreapp3.1\k173652_Q2.dll.config
